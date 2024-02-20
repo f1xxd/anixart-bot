@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "prepare": "bunx husky",
-    "build": "bun build ./src --target=bun --outdir=dist",
+    "dev": "bun --watch .",
+    "build": "bun build . --target=bun --outdir=dist",
     "executable": "bun build . --target=bun --compile --outfile=bot",
     "format": "bunx biome format . --write",
     "lint": "bunx biome lint . --apply"
