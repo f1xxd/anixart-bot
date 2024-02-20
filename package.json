@@ -1,15 +1,25 @@
 {
   "name": "anixart-bot",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
+  "scripts": {
+    "prepare": "bunx husky",
+    "build": "bun build ./src --target=bun --outdir=dist",
+    "executable": "bun build . --target=bun --compile --outfile=bot",
+    "format": "bunx biome format . --write",
+    "lint": "bunx biome lint . --apply"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
+  "author": "flxxd <me@flxxd.ru>",
   "dependencies": {
     "gramio": "^0.0.11",
     "redis": "^4.6.13"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "@types/bun": "latest",
+    "husky": "^9.0.11"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
