@@ -1,5 +1,5 @@
 {
-  "name": "anixart-api",
+  "name": "anixart-bot",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
@@ -9,6 +9,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "gramio": "^0.0.11"
+    "gramio": "^0.0.11",
+    "redis": "^4.6.13"
   }
 }

@@ -1,4 +1,4 @@
-# anixart-api
+# anixart-bot
 
 To install dependencies:
 
