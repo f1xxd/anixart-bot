@@ -8,6 +8,13 @@
     "jsx": "react-jsx",
     "allowJs": true,
 
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/redis": ["./src/redis/redis"],
+      "@/anixart": ["./src/anixart/anixart"],
+      "@/telegram": ["./src/telegram/telegram"],
+    },
+
     // Bundler mode
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,

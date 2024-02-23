@@ -1,2 +1,2 @@
-import "./redis/redis"
-import "./telegram"
+import "@/redis"
+import "@/telegram"

@@ -1,5 +1,5 @@
 import { createClient } from "redis"
-import { type ValueType } from "./types"
+import { type ValueType } from "@/redis/types"
 
 export const redis = await createClient({
   url: process.env.REDIS,
