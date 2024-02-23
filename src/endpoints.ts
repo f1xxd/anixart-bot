@@ -6,9 +6,11 @@ export const BASE_URL = "https://api.anixart.tv"
 export const IFRAME_URL = "https://anixart.tv/iframe?url="
 
 // Response codes
-export const CODE_SUCCESS = 0
-export const CODE_FAILED = 1
-export const CODE_BANNED = 403
+export enum CODE {
+  SUCCESS = 0,
+  FAILED = 1,
+  BANNED = 403,
+}
 
 // Auth API
 
