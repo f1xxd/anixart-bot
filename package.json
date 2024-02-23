@@ -12,7 +12,7 @@
   },
   "author": "flxxd <me@flxxd.ru>",
   "dependencies": {
-    "gramio": "^0.0.13",
+    "gramio": "^0.0.15",
     "redis": "^4.6.13"
   },
   "devDependencies": {
