@@ -177,3 +177,4 @@ dist
 bun.lockb
 *.exe
 *.js
+tests
