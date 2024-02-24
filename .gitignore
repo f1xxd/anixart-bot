@@ -177,4 +177,4 @@ dist
 bun.lockb
 *.exe
 *.js
-tests
+tests/env.ts
