@@ -1,4 +1,4 @@
-import { signIn } from "@/anixart/methods"
+import { signIn as func } from "@/anixart/methods"
 import * as env from "./env"
 
 const auth = await func({
