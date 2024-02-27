@@ -175,6 +175,5 @@ dist
 .DS_Store
 
 bun.lockb
-*.exe
-*.js
 tests/env.ts
+*-test.*

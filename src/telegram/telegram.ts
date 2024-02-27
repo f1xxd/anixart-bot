@@ -1,4 +1,4 @@
-import { Bot } from "gramio"
+import { Bot, Plugin } from "gramio"
 import { get } from "@/redis"
 
 export const bot = new Bot(process.env.BOT_TOKEN as string)
@@ -7,4 +7,4 @@ export const bot = new Bot(process.env.BOT_TOKEN as string)
     return context.send("what")
   })
 
-bot.updates.startPolling().then(() => console.log("started"))
+bot.start().then(() => console.log("started"))
