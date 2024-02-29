@@ -1,4 +1,4 @@
-import { Bot, Plugin } from "gramio"
+import { Bot } from "gramio"
 import { get } from "@/redis"
 
 export const bot = new Bot(process.env.BOT_TOKEN as string)

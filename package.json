@@ -11,6 +11,7 @@
   },
   "author": "flxxd <me@flxxd.ru>",
   "dependencies": {
+    "anixart-api": "^1.0.1",
     "gramio": "0.0.18",
     "redis": "^4.6.13"
   },
